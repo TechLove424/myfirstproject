@@ -30,7 +30,8 @@ input[type=text], input[type=password] {
 .btn{
   font-size:15px;
   background-color:skyblue;
-  padding: 5px 10px;
+  padding: 5px 10px
+  font-color:white;
 
 }
 .container {
@@ -47,13 +48,12 @@ input[type=text], input[type=password] {
 }
 form {border: 3px solid;
 width:50%;
+border-color:blue;
 }
 .a {
   width:20%;
 }
-.b{
-  font-color:blue;
-}
+
 </style>
     
   <meta name="google-signin-client_id" content="90421203756-7077dtcj76b77hlbdifdj8q4d4c17olt.apps.googleusercontent.com">
@@ -79,12 +79,12 @@ width:50%;
 </div><br><br>
 
 <div >
-    <label class"b" for="uname"><b>Username</b></label>
+    <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required><br><br>
 
-    <label class"b" for="psw"><b>Password</b></label>
+    <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required><br><br>
-    <button style=" font-size:15px; background-color:skyblue;" type="submit">Login</button>
+    <button style=" font-size:15px; background-color:skyblue; font-color:white;" type="submit">Login</button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
