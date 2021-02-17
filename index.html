@@ -1,19 +1,98 @@
 <html lang="en">
   <head>
-    <meta name="google-signin-scope" content="profile email">
-    <meta name="google-signin-client_id" content="90421203756-7077dtcj76b77hlbdifdj8q4d4c17olt.apps.googleusercontent.com">
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-  </head>
-  <body>
-    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
-    <script>
+    <style>
+    body {
+            margin:50px 0px; padding:0px;
+            text-align:center;
+            align:center;
+  }
+.g-signin2{
+           width: 100%;
+}
+
+.g-signin2 > div{
+  margin: 2 auto;
+
+}
+
+input[type=text], input[type=password] {
+  width: 40%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+
+
+
+.btn{
+  font-size:15px;
+  background-color:skyblue;
+  padding: 5px 10px;
+
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  font-size:150%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+form {border: 3px solid;
+width:50%;
+}
+.a {
+  width:20%;
+}
+.b{
+  font-color:blue;
+}
+</style>
+    
+  <meta name="google-signin-client_id" content="90421203756-7077dtcj76b77hlbdifdj8q4d4c17olt.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script>
       
+      function signOut(){
+        gapi.auth2.getAuthInstance().signOut().then(function(){
+          console.log('user signed out')
+        })
+      }
       
-    </script>
-    <p>Profile Details</p>
-<img id="pic" class="img-circle" width="100" height="100"/>
-<p>Email Address</p>
-<p id="email" class="alert alert-danger"></p>
-<button onclick="signOut()" class="btn btn-danger">SignOut</button>
+</script>
+</head>
+    <body>
+      <div align="center" >
+      <form action="" method="post"style= "background-color:skyblue">
+        <div id="content"></div>
+    
+  <div class="container">
+       <img id="pic" class="img-circle" style=" background-color: blue;" width="539" height=100"/>
+       <div class="centered">LOGIN Page</div>
+</div><br><br>
+
+<div >
+    <label class"b" for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+
+    <label class"b" for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+    <button style=" font-size:15px; background-color:skyblue;" type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div><br>
+
+<div style="align:center" class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div><br>
+<div><button onclick="signOut()" class="btn">SignOut</button></div><br>
+
+</form></div>
   </body>
 </html>
