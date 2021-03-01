@@ -1,0 +1,774 @@
+<html>
+<head><title>Product Page</title>
+
+	<script src="//cdn.ckeditor.com/4.16.0/full/ckeditor.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">  
+
+  <style type="text/css">
+
+    .center{
+
+      margin-top:auto;
+    margin-left: 240px;
+    margin-right: 136px;
+  
+    }
+      .btn{
+  font-size:15px;
+  background-color:skyblue;
+  padding: 5px 10px
+  font-color:white;
+   width:80%;
+   margin-left: 120px;
+   margin-right: 150px;
+  
+}
+
+
+    .input{
+  
+  border-radius: 4px;
+  margin-top:auto;
+    margin-left: 220px;
+    margin-right:500px;
+    width:69%;
+    padding: 4px 20px;
+
+}
+    .seo{
+
+border-radius: 4px;
+  margin-top:auto;
+    margin-left: 70px;
+    margin-right: 100px;
+    width:89%;
+    padding: 4px 20px;
+
+
+    }
+      
+
+    .abc{
+      margin-top:100px;
+      margin-left: 100px;
+    }
+    .align{
+      width:10px;
+      margin-left:75px; 
+    }
+     .feature{
+        width:60%;
+      margin-left:75px; 
+     }
+
+     .service{
+
+      width:80%;
+      margin-left:75px; 
+     }
+     .seosection{
+      width:100%;
+      margin-left:75px; 
+     }
+
+  </style>
+</head>
+
+<body>
+
+<br>
+<div style="
+      margin-left: 70px;">
+<h style="font-size: 30px;">Create Product</h>
+</div><br>
+<div style="margin-left:88px;">
+  <p style="font-size: 25px;">Basic Product Details</p>
+</div>
+
+<div  class="align"><label  class="col-sm-2 col-form-label" for="Productname">Product Name:</label> </div>
+
+
+<div class="input">
+<input type="text" class="form-control" name="Productname" placeholder="Productname">
+</div>
+<br>
+<div class="align">
+<label class="col-sm-2 col-form-label" for="textarea">Product Description</label>
+</div>
+<div class="center">
+  <textarea name="textarea"></textarea>
+<script>
+        CKEDITOR.replace( 'textarea' );
+    </script>
+
+  </div>                                                                  
+<br><br>
+<div style="margin-left:75px;">
+<label class="col-sm-2 col-form-label" for="fname">Product Brand:</label>
+
+<select name="test1" style="width:270px;" class="form-control">
+  <option value="Resound">Resound</option>
+  <option value="Oticon">Oticon</option>
+  <option value="phonak">phonak</option>
+  <option value="Signia">Signia</option>
+  <option value="AudioService">AudioService</option>
+  <option value="Honer">Honer</option>
+  <option value="Honer">Honer</option>
+  <option value="Hearing Aid">Hearing Aid</option></select><br>
+  </div>
+
+<div  class="align"><label class="col-sm-2 col-form-label" for="Product Image">Product Image</label> 
+</div>
+<div class="input"><input type="text" class="form-control" name="Product Image"><br><br></div>
+
+<div style="margin-left:75px;">
+<label class="col-sm-2 col-form-label" for="Product Image">Product Status</label>
+</div>
+<div>
+<input type="checkbox"  value="Product Status"> [Checked means Active]
+</div>
+<br>
+
+<div style="margin-left:90px;">
+  <h style="font-size: 25px;" >Features Product Details</h>
+</div>
+<br>
+<div class="align">
+  <label class="col-sm-2 col-form-label" for="fname">Product features Title</label>
+</div>
+  
+
+<div class="input">
+  
+  <input type="text" class="form-control" name="fname">
+</div><br>
+
+<div class="align">
+  <label class="col-sm-2 col-form-label"  for="textarea">Product Feature Description</label>
+</div>
+
+<div class="center">
+  <textarea name="ProductFeature"></textarea>
+  <script>
+        CKEDITOR.replace( 'ProductFeature' );
+    </script>
+</div>
+<div style="margin-left:90px;"> 
+  <h style="font-size: 25px;">Product Feature Property</h><br>
+</div>
+<br>
+
+<div class="feature">
+  <label  class="col-sm-2 col-form-label" for="Feature 1">Feature 1</label>
+</div>
+<div class="input">
+  <input type="text" class="form-control" name="Feature 1">
+</div>
+
+<div class="feature">
+  <label class="col-sm-2 col-form-label" for="Feature 2"> Feature 2</label>
+</div>
+<div class="input">
+  <input type="text" class="form-control" name="Feature 2">
+</div>
+
+<div class="feature">
+  <label class="col-sm-2 col-form-label" for="Feature 3"> Feature 3</label>
+</div>
+<div class="input">
+  <input type="text" class="form-control" name="Feature 3">
+</div>
+
+<div class="feature">
+  <label class="col-sm-2 col-form-label" for="Feature 4"> Feature 4</label>
+</div>
+<div class="input">
+  <input type="text" class="form-control" name="Feature 4">
+</div>
+
+<div class="feature">
+  <label class="col-sm-2 col-form-label" for="Feature 5"> Feature 5</label>
+</div>
+<div class="input">
+  <input type="text" class="form-control" name="Feature 5">
+</div>
+
+<div class="feature">
+  <label class="col-sm-2 col-form-label" for="Feature 6"> Feature 6</label>
+</div>
+<div class="input">
+  <input type="text" class="form-control" name="Feature 6">
+</div>
+
+
+<div class="feature">
+  <label class="col-sm-2 col-form-label" for="Feature 7"> Feature 7</label>
+</div>
+<div class="input">
+  <input type="text" class="form-control" name="Feature 7">
+</div>
+
+<div class="feature">
+  <label class="col-sm-2 col-form-label" for="Feature 8"> Feature 8</label>
+</div>
+<div class="input">
+  <input type="text" class="form-control" name="Feature 8">
+</div>
+
+<div class="feature">
+  <label class="col-sm-2 col-form-label" for="Feature 9"> Feature 9</label>
+</div>
+<div class="input">
+  <input type="text" class="form-control" name="Feature 9">
+</div>
+
+<div class="feature">
+  <label class="col-sm-2 col-form-label" for="Feature 10"> Feature 10</label>
+</div>
+<div class="input">
+  <input type="text" class="form-control" name="Feature 10">
+</div>
+
+<br>
+
+<div style="margin-left:90px;"> 
+  <h style="font-size: 25px;">Service Product Details</h><br>
+</div>
+<div class="service">
+  <label class="col-sm-2 col-form-label" for="Service Title"> Service Title</label>
+</div>
+
+<div class="input">
+  <input  type="text"   class="form-control"  name="Service Title">
+</div>
+
+
+<div style="margin-left:90px;"> 
+  <h style="font-size: 25px;">Service Features</h>
+</div>
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 1 Title"> Feature 1 Title</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control"  name="Feature 1 Title">
+</div>
+<br>
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 1 Img Src"> Feature 1 Img Src</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control" name="Feature 1 Img Src">
+</div>
+<br>
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 1 Img Alt"> Feature 1 Img Alt</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control" name="Feature 1 Img Alt">
+</div>
+<br>
+
+
+<div class="service">
+  <label class="col-sm-2 col-form-label"  for="textarea">Feature 1 Description</label>
+</div>
+
+<div class="center">
+  <textarea name="Feature1Description"></textarea>
+  <script>
+        CKEDITOR.replace( 'Feature1Description' );
+    </script>
+</div>
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 2 Title"> Feature 2 Title</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control" name="Feature 2 Title">
+</div>
+<br>
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 2 Img Src"> Feature 2 Img Src</label>
+</div>
+<div class="input">
+  <input  type="text"   class="form-control" name="Feature 2 Img Src">
+</div>
+<br>
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 2 Img Alt"> Feature 2 Img Alt</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control"  name="Feature 2 Img Alt">
+</div>
+<br>
+
+
+
+
+
+<div class="service">
+  <label class="col-sm-2 col-form-label"  for="textarea">Feature 2 Description</label>
+</div>
+
+<div class="center">
+  <textarea name="Feature2Description"></textarea>
+  <script>
+        CKEDITOR.replace( 'Feature2Description' );
+    </script>
+</div>
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 3 Title"> Feature 3 Title</label>
+</div>
+<div class="input">
+  <input  type="text"   class="form-control" name="Feature 3 Title">
+</div>
+<br>
+
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 3 Img Src"> Feature 3 Img Src</label>
+</div>
+<div class="input">
+  <input  type="text"   class="form-control" name="Feature 3 Img Src">
+</div>
+<br>
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 3 Img Alt"> Feature 3 Img Alt</label>
+</div>
+<div class="input">
+  <input  type="text"   class="form-control" name="Feature 3 Img Alt">
+</div>
+<br>
+
+
+<div class="service">
+  <label class="col-sm-2 col-form-label"  for="textarea">Feature 3 Description</label>
+</div>
+
+<div class="center">
+  <textarea name="Feature3Description"></textarea>
+  <script>
+        CKEDITOR.replace( 'Feature3Description' );
+    </script>
+</div>
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 4 Title"> Feature 4 Title</label>
+</div>
+<div class="input">
+  <input  type="text"   class="form-control" name="Feature 4 Title">
+</div>
+<br>
+
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 4 Img Src"> Feature 4 Img Src</label>
+</div>
+<div class="input">
+  <input  type="text"   class="form-control" name="Feature 4 Img Src">
+</div>
+<br>
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 4 Img Alt"> Feature 4 Img Alt</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control" name="Feature 4 Img Alt">
+</div>
+<br>
+
+
+<div class="service">
+  <label class="col-sm-2 col-form-label"  for="textarea">Feature 4 Description</label>
+</div>
+
+<div class="center">
+  <textarea name="Feature4Description"></textarea>
+  <script>
+        CKEDITOR.replace( 'Feature4Description' );
+    </script>
+</div>
+
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 5 Title"> Feature 5 Title</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control"  name="Feature 5 Title">
+</div>
+<br>
+
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 5 Img Src"> Feature 5 Img Src</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control"  name="Feature 5 Img Src">
+</div>
+<br>
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 5 Img Alt"> Feature 5 Img Alt</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control" name="Feature 5 Img Alt">
+</div>
+<br>
+
+
+<div class="service">
+  <label class="col-sm-2 col-form-label"  for="textarea">Feature 5 Description</label>
+</div>
+
+<div class="center">
+  <textarea name="Feature5Description"></textarea>
+  <script>
+        CKEDITOR.replace( 'Feature5Description' );
+    </script>
+</div>
+
+
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature  Title"> Feature 6 Title</label>
+</div>
+<div class="input">
+  <input  type="text"   class="form-control"  name="Feature 6 Title">
+</div>
+<br>
+
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 6 Img Src"> Feature 6 Img Src</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control" name="Feature 6 Img Src">
+</div>
+<br>
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 6 Img Alt"> Feature 6 Img Alt</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control" name="Feature 6 Img Alt">
+</div>
+<br>
+
+
+<div class="service">
+  <label class="col-sm-2 col-form-label"  for="textarea">Feature 6 Description</label>
+</div>
+
+<div class="center">
+  <textarea name="Feature6Description"></textarea>
+  <script>
+        CKEDITOR.replace( 'Feature6Description' );
+    </script>
+</div>
+
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 7 Title"> Feature 7 Title</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control" name="Feature 7 Title">
+</div>
+<br>
+
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 7 Img Src"> Feature 7 Img Src</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control" name="Feature 7 Img Src">
+</div>
+<br>
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 7 Img Alt"> Feature 7 Img Alt</label>
+</div>
+<div class="input">
+  <input  type="text"   class="form-control" name="Feature 7 Img Alt">
+</div>
+<br>
+
+
+<div class="service">
+  <label class="col-sm-2 col-form-label"  for="textarea">Feature 7 Description</label>
+</div>
+
+<div class="center">
+  <textarea name="Feature7Description"></textarea>
+  <script>
+        CKEDITOR.replace( 'Feature7Description' );
+    </script>
+</div>
+
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 7 Title"> Feature 8 Title</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control" name="Feature 8 Title">
+</div>
+<br>
+
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 7 Img Src"> Feature 8 Img Src</label>
+</div>
+<div class="input">
+  <input  type="text"   class="form-control" name="Feature 8 Img Src">
+</div>
+<br>
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 8 Img Alt"> Feature 8 Img Alt</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control"  name="Feature 8 Img Alt">
+</div>
+<br>
+
+
+<div class="service">
+  <label class="col-sm-2 col-form-label"  for="textarea">Feature 8 Description</label>
+</div>
+
+<div class="center">
+  <textarea name="Feature8Description"></textarea>
+  <script>
+        CKEDITOR.replace( 'Feature8Description' );
+    </script>
+</div>
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 9 Title"> Feature 9 Title</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control"  name="Feature 9 Title">
+</div>
+<br>
+
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 9 Img Src"> Feature 9 Img Src</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control" name="Feature 9 Img Src">
+</div>
+<br>
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 9 Img Alt"> Feature 9 Img Alt</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control"  name="Feature 9 Img Alt">
+</div>
+<br>
+
+
+<div class="service">
+  <label class="col-sm-2 col-form-label"  for="textarea">Feature 9 Description</label>
+</div>
+
+<div class="center">
+  <textarea name="Feature9Description"></textarea>
+  <script>
+        CKEDITOR.replace( 'Feature9Description' );
+    </script>
+</div>
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 10 Title"> Feature 10 Title</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control" name="Feature 10 Title">
+</div>
+<br>
+
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 10 Img Src"> Feature 10 Img Src</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control" name="Feature 10 Img Src">
+</div>
+<br>
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"  for="Feature 10 Img Alt"> Feature 10 Img Alt</label>
+</div>
+<div class="input">
+  <input  type="text"  class="form-control"  name="Feature 10 Img Alt">
+</div>
+<br>
+
+
+<div class="service">
+  <label class="col-sm-2 col-form-label"  for="textarea">Feature 10 Description</label>
+</div>
+
+<div class="center">
+  <textarea name="Feature10Description"></textarea>
+  <script>
+        CKEDITOR.replace( 'Feature10Description' );
+    </script>
+</div>
+
+
+
+
+
+
+
+<div style="margin-left:83px;">
+  <p style="font-size: 25px;" >Related Product Details</p>
+</div>
+
+<div class="service"> <label for="Related Product Section Title" class="col-sm-2 col-form-label">Related Product Section Title</div>
+
+</label>
+<div class="input">
+<input type="text" class="form-control" name="Related Product Section Title" placeholder="Related Product Section Title"><br><br>
+</div>
+
+
+
+<div style="margin-left:75px;"> <label for="Select Related products" class="col-sm-2 col-form-label">Select Related products</label>
+</div>
+
+
+<div > <input type="checkbox" id="ITC[In The Canal]" name="ITC[In The Canal]" value="ITC[In The Canal]">
+<label for="ITC[In The Canal]"> ITC[In The Canal]</label><br></div>
+
+<div>
+  <input type="checkbox" id="IIC[Invisible in Canal]" name="IIC[Invisible in Canal]" value="IIC[Invisible in Canal]">
+<label for="IIC[Invisible in Canal]"> IIC[Invisible in Canal]</label><br>
+</div>
+
+<div  style="margin-left: 240px;">
+  <input type="checkbox" id="CIC[Completely in Canal]" name="CIC[Completely in Canal]" value="CIC[Completely in Canal]">
+<label for="CIC[Completely in Canal]"> CIC[Completely in Canal]</label><br>
+
+</div>
+
+
+<div style="margin-left: 240px;">
+  <input type="checkbox" id="RIC[Receiver in Canal]" name="RIC[Receiver in Canal]" value="RIC[Receiver in Canal]">
+<label for="RIC[Receiver in Canal]"> RIC[Receiver in Canal]</label><br>
+
+</div>
+
+<div style="margin-left: 240px;">
+  <input type="checkbox" id="BTE[Behind the ear]" name="BTE[Behind the ear]" value="BTE[Behind the ear]">
+<label for="BTE[Behind the ear]"> BTE[Behind the ear]</label><br>
+</div>
+<br>
+
+
+
+
+
+
+<div style="margin-left:83px;">
+  <h style="font-size: 25px;">SEO Section</h>
+  </div>
+
+  <br>
+
+
+  <div class="service">
+<label class="col-sm-2 col-form-label"  for="Seo Title" > Seo Title</label>
+</div>
+<div class="seo">
+  <input  type="text"  class="form-control"  placeholder="Seo Title " name="Seo Title">
+</div>
+<br>
+
+
+<div class="service">
+<label  class="col-sm-2 col-form-label"for="Seo Description"> Seo Description</label><br>
+</div>
+<div class="seo">
+  <input type="text" class="form-control"  placeholder="Seo Description " name="Seo Description"><br>
+
+</div>
+<br>
+
+
+
+<div style=" width:300%;
+      margin-left:75px; ">
+<label  class="col-sm-2 col-form-label"for="Seo Description">  Social Image Url [Direct path of any Image Url for the Product]</label><br>
+</div>
+<div class="seo">
+  <input type="text" class="form-control"  placeholder=" Social Image Url [Direct path of any Image Url for the Product] " name=" Social Image Url [Direct path of any Image Url for the Product]"><br>
+
+</div>
+<br>
+
+<div class="seosection">
+<label  class="col-sm-2 col-form-label"for="Social Image Alt Text"> Social Image Alt Text</label><br>
+</div>
+<div class="seo">
+  <input type="text" class="form-control"  placeholder="Social Image Alt Text " name="Social Image Alt Text"><br>
+
+</div>
+<br>
+
+<div style=" width:300%;
+      margin-left:75px; ">
+<label  class="col-sm-2 col-form-label" for=" Seo keyword [ Comma seperated keywords for this products]">  Seo keyword [ Comma seperated keywords for this products]</label><br>
+</div>
+<div class="seo">
+  <input type="text" class="form-control"  placeholder=" Seo keyword [ Comma seperated keywords for this products] " name="Social Image Alt Text"><br>
+
+</div>
+<br>
+
+
+<div class="seosection">
+<label  class="col-sm-2 col-form-label"for="Seo URL<">Seo URL</label><br>
+</div>
+<div class="seo">
+  <input type="text" class="form-control"  placeholder="Seo URL " name="Seo URL<"><br>
+
+</div>
+<br>
+<a href="product.html"><button class="btn">Create</button></a>
+
+</body>
+</html>
