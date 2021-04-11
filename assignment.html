@@ -1,0 +1,51 @@
+        <html>
+
+        <head>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+            <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <link href="style1.css" rel="stylesheet">
+        </head>
+
+        <body>
+            <div>
+        <span class="text1"><i class="fa fa-group"></i></span><span class="text1">&nbsp;Choose number of <b>people</b></span>
+            </div><br>
+            <div style=" border: solid 2px; border-color:rgb(118, 124, 124); width: 500px; height: 153px; display:flex;">
+
+                <table>
+                    <tr>
+                        <td class="text"><i class="fa fa-bed"></i> &nbsp;&nbsp;ROOMS</td>
+                        <td><i id="minus" class="fa fa-minus-circle" onclick="minusRoomCount(0)">&nbsp;&nbsp;</i>
+                            <span id="roomCount"></span>&nbsp;&nbsp;
+                            <i id="plus" class="fa fa-plus-circle" onclick="updateValue('plus',0)"></i>
+                        </td>
+
+                    </tr>
+                <tr>
+
+                <td class="text"> <i class="fa fa-user"></i> &nbsp;&nbsp; ADULTS</td>
+                <td>
+                    <i id="minus" class="fa fa-minus-circle" onclick="minusRoomCount(1)">&nbsp;&nbsp;</i>
+                    <span id="adultCount"></span>&nbsp;&nbsp;
+                    <i id="plus" class="fa fa-plus-circle" onclick="updateValue('plus',1)"></i>
+                </td>
+            </tr>
+        <tr>
+            <td class="text">
+                <i class="fa fa-child"></i> &nbsp;&nbsp;CHILDREN</td>
+                        <td style="align-items: right;">
+                            <i id="minus" class="fa fa-minus-circle" onclick="minusRoomCount(2)">&nbsp;&nbsp;</i>
+                            <span id="childCount"></span>&nbsp;&nbsp;
+                            <i id="plus" class="fa fa-plus-circle" onclick="updateValue('plus',2)"></i>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <script src="assign.js"></script>
+
+        </body>
+
+        </html>
