@@ -1,0 +1,44 @@
+table {
+    border: solid 2px;
+    border: rgb(139, 139, 136);
+    width: 98%;
+}
+
+th,
+td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+.text {
+    color: rgb(24, 24, 138);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text1 {
+    color: rgb(24, 24, 138);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#minus {
+
+    font-size: 20px;
+    color: rgb(9, 7, 102);
+}
+
+#plus {
+    font-size: 20px;
+    color: red;
+}
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
